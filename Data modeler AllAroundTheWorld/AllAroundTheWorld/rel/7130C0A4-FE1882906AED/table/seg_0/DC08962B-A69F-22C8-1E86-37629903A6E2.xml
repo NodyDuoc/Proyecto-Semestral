@@ -59,6 +59,29 @@
 <ownDataTypeParameters>500,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="tiempoEstimado" id="1F364EE3-F5BA-611F-DC18-FFA6079C6C5F">
+<createdBy>alex7</createdBy>
+<createdTime>2022-03-16 11:38:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[Tiempro aproximado de cuanto demorara la receta en minutos]]></commentInRDBMS>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dificultad" id="C0BC921B-C9E3-140B-1C4E-054D102269F7">
+<createdBy>alex7</createdBy>
+<createdTime>2022-03-16 11:38:15 UTC</createdTime>
+<commentInRDBMS><![CDATA[Que tan dificil es recrear la receta]]></commentInRDBMS>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="comentario" id="4D85605B-478B-800D-E460-E51C502633AE">
 <createdBy>alex7</createdBy>
 <createdTime>2022-03-13 18:43:03 UTC</createdTime>

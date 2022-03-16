@@ -75,6 +75,32 @@
 <dataTypeSize>500</dataTypeSize>
 <ownDataTypeParameters>500,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="tiempoEstimado" id="47AFB51E-FD2B-A310-1111-09854085DD30">
+<createdBy>alex7</createdBy>
+<createdTime>2022-03-16 11:39:00 UTC</createdTime>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="dificultad" id="CA503DE9-80F9-FFB1-26A7-092A9ACD7EBD">
+<createdBy>alex7</createdBy>
+<createdTime>2022-03-16 11:38:39 UTC</createdTime>
+<commentInRDBMS><![CDATA[Que tan dificil es recrear la receta]]></commentInRDBMS>
+<ownerDesignName>AllAroundTheWorld</ownerDesignName>
+<engineerTo>
+<item key="7130C0A4-2156-5756-F941-FE1882906AED" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="comentario" id="50C5CC75-3D08-AED8-5DEB-DC1156FA692E">
 <createdBy>alex7</createdBy>
 <createdTime>2022-03-13 18:41:30 UTC</createdTime>
